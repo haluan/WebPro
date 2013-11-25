@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nama:</strong>
+  <%= @ekskul.nama %>
+</p>
+
+<p>
+  <strong>Deskripsi:</strong>
+  <%= @ekskul.deskripsi %>
+</p>
+
+<p>
+  <strong>Guru:</strong>
+  <%= @ekskul.guru_id %>
+</p>
+
+<%= link_to 'Edit', edit_ekskul_path(@ekskul) %> |
+<%= link_to 'Back', ekskuls_path %>

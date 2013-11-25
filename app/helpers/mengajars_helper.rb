@@ -1,0 +1,2 @@
+module MengajarsHelper
+end

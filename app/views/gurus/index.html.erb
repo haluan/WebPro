@@ -1,0 +1,39 @@
+<h1>Listing gurus</h1>
+
+<table class="table table-condensed">
+  <thead>
+    <tr>
+      <th>Nip</th>
+      <th>Nama</th>
+      <th>Email</th>
+     <th>Alamat</th>
+      <th>Agama</th>
+      <th>Birthday</th>
+      <th>Birthplace</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @gurus.each do |guru| %>
+      <tr>
+        <td><%= guru.nip %></td>
+        <td><%= guru.nama %></td>
+        <td><%= guru.email %></td>
+        <td><%= guru.alamat %></td>
+        <td><%= guru.agama %></td>
+        <td><%= guru.birthday %></td>
+        <td><%= guru.birthplace %></td>
+        <td><%= link_to 'Show', guru %></td>
+        <td><%= link_to 'Edit', edit_guru_path(guru) %></td>
+        <td><%= link_to 'Destroy', guru, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Guru', new_guru_path %>

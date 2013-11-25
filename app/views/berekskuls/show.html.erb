@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Tahun:</strong>
+  <%= @berekskul.tahun %>
+</p>
+
+<p>
+  <strong>Mahasiswa:</strong>
+  <%= @berekskul.mahasiswa_id %>
+</p>
+
+<p>
+  <strong>Ekskul:</strong>
+  <%= @berekskul.ekskul_id %>
+</p>
+
+<%= link_to 'Edit', edit_berekskul_path(@berekskul) %> |
+<%= link_to 'Back', berekskuls_path %>

@@ -1,0 +1,41 @@
+<h1>Listing siswas</h1>
+
+<table class="table table-condensed">
+  <thead>
+    <tr>
+      <th>Nis</th>
+      <th>Nama</th>
+      <th>Email</th>
+      <th>Alamat</th>
+      <th>Agama</th>
+      <th>Birthday</th>
+      <th>Birthplace</th>
+      <th>Orangtua</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @siswas.each do |siswa| %>
+      <tr>
+        <td><%= siswa.nis %></td>
+        <td><%= siswa.nama %></td>
+        <td><%= siswa.email %></td>
+        <td><%= siswa.alamat %></td>
+        <td><%= siswa.agama %></td>
+        <td><%= siswa.birthday %></td>
+        <td><%= siswa.birthplace %></td>
+        <td><%= siswa.orangtua.nama %></td>
+        <td><%= link_to 'Show', siswa %></td>
+        <td><%= link_to 'Edit', edit_siswa_path(siswa) %></td>
+        <td><%= link_to 'Destroy', siswa, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Siswa', new_siswa_path %>

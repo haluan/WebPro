@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @abesnsi.status %>
+</p>
+
+<p>
+  <strong>Mahasiswa:</strong>
+  <%= @abesnsi.mahasiswa_id %>
+</p>
+
+<p>
+  <strong>Jadwal:</strong>
+  <%= @abesnsi.jadwal_id %>
+</p>
+
+<%= link_to 'Edit', edit_abesnsi_path(@abesnsi) %> |
+<%= link_to 'Back', abesnsis_path %>

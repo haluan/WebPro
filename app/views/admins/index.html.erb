@@ -1,0 +1,40 @@
+<h1>Listing admins</h1>
+
+<table class="table table-condensed">
+  <thead>
+    <tr>
+      <th>Nip</th>
+      <th>Nama</th>
+      <th>Email</th>
+     
+      <th>Alamat</th>
+      <th>Agama</th>
+      <th>Birthday</th>
+      <th>Birthplace</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @admins.each do |admin| %>
+      <tr>
+        <td><%= admin.nip %></td>
+        <td><%= admin.nama %></td>
+        <td><%= admin.email %></td>
+        <td><%= admin.alamat %></td>
+        <td><%= admin.agama %></td>
+        <td><%= admin.birthday %></td>
+        <td><%= admin.birthplace %></td>
+        <td><%= link_to 'Show', admin %></td>
+        <td><%= link_to 'Edit', edit_admin_path(admin) %></td>
+        <td><%= link_to 'Destroy', admin, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Admin', new_admin_path %>

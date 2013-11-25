@@ -1,0 +1,46 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nis:</strong>
+  <%= @siswa.nis %>
+</p>
+
+<p>
+  <strong>Nama:</strong>
+  <%= @siswa.nama %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @siswa.email %>
+</p>
+
+
+<p>
+  <strong>Alamat:</strong>
+  <%= @siswa.alamat %>
+</p>
+
+<p>
+  <strong>Agama:</strong>
+  <%= @siswa.agama %>
+</p>
+
+<p>
+  <strong>Birthday:</strong>
+  <%= @siswa.birthday %>
+</p>
+
+<p>
+  <strong>Birthplace:</strong>
+  <%= @siswa.birthplace %>
+</p>
+
+
+<p>
+  <strong>Orangtua:</strong>
+  <%= @siswa.orangtua.nama %>
+</p>
+
+<%= link_to 'Edit', edit_siswa_path(@siswa) %> |
+<%= link_to 'Back', siswas_path %>

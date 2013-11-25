@@ -1,0 +1,29 @@
+<%= form_for(@walikela) do |f| %>
+  <% if @walikela.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@walikela.errors.count, "error") %> prohibited this walikela from being saved:</h2>
+
+      <ul>
+      <% @walikela.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :tahun_ajaran %><br>
+    <%= f.text_field :tahun_ajaran %>
+  </div>
+  <div class="field">
+    <%= f.label :kelas_id %><br>
+    <%= f.select :kela_id, kelaser %>
+  </div>
+  <div class="field">
+    <%= f.label :guru_id %><br>
+    <%= f.select :guru_id, guru %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

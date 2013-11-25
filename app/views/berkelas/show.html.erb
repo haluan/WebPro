@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Tahun ajaran:</strong>
+  <%= @berkela.tahun_ajaran %>
+</p>
+
+<p>
+  <strong>Mahasiswa:</strong>
+  <%= @berkela.mahasiswa_id %>
+</p>
+
+<p>
+  <strong>Kelas:</strong>
+  <%= @berkela.kelas_id %>
+</p>
+
+<%= link_to 'Edit', edit_berkela_path(@berkela) %> |
+<%= link_to 'Back', berkelas_path %>

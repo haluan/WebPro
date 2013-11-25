@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Tahun ajaran:</strong>
+  <%= @walikela.tahun_ajaran %>
+</p>
+
+<p>
+  <strong>Kelas:</strong>
+  <%= @walikela.kela.nama %>
+</p>
+
+<p>
+  <strong>Guru:</strong>
+  <%= @walikela.guru.nip %> - <%=@walikela.guru.nama%>
+</p>
+
+<%= link_to 'Edit', edit_walikela_path(@walikela) %> |
+<%= link_to 'Back', walikelas_path %>

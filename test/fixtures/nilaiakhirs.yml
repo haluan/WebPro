@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  nilai: MyString
+  berkelas_id: 1
+  mapel_id: 1
+
+two:
+  nilai: MyString
+  berkelas_id: 1
+  mapel_id: 1

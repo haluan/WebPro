@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  NIK: MyString
+  nama: MyString
+  email: MyString
+  password_digest: MyString
+  alamat: MyString
+  pekerjaan: MyString
+  agama: MyString
+  birthday: MyString
+  birthplace: MyString
+  ingat_aku: MyString
+
+two:
+  NIK: MyString
+  nama: MyString
+  email: MyString
+  password_digest: MyString
+  alamat: MyString
+  pekerjaan: MyString
+  agama: MyString
+  birthday: MyString
+  birthplace: MyString
+  ingat_aku: MyString

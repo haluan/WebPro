@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nip:</strong>
+  <%= @guru.nip %>
+</p>
+
+<p>
+  <strong>Nama:</strong>
+  <%= @guru.nama %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @guru.email %>
+</p>
+
+<p>
+  <strong>Password digest:</strong>
+  <%= @guru.password_digest %>
+</p>
+
+<p>
+  <strong>Alamat:</strong>
+  <%= @guru.alamat %>
+</p>
+
+<p>
+  <strong>Agama:</strong>
+  <%= @guru.agama %>
+</p>
+
+<p>
+  <strong>Birthday:</strong>
+  <%= @guru.birthday %>
+</p>
+
+<p>
+  <strong>Birthplace:</strong>
+  <%= @guru.birthplace %>
+</p>
+
+<p>
+  <strong>Ingat aku:</strong>
+  <%= @guru.ingat_aku %>
+</p>
+
+<%= link_to 'Edit', edit_guru_path(@guru) %> |
+<%= link_to 'Back', gurus_path %>

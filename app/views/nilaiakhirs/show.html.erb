@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nilai:</strong>
+  <%= @nilaiakhir.nilai %>
+</p>
+
+<p>
+  <strong>Berkelas:</strong>
+  <%= @nilaiakhir.berkelas_id %>
+</p>
+
+<p>
+  <strong>Mapel:</strong>
+  <%= @nilaiakhir.mapel_id %>
+</p>
+
+<%= link_to 'Edit', edit_nilaiakhir_path(@nilaiakhir) %> |
+<%= link_to 'Back', nilaiakhirs_path %>

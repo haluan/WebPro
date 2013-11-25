@@ -1,0 +1,29 @@
+<h1>Listing mapels</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Kode</th>
+      <th>Nama</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @mapels.each do |mapel| %>
+      <tr>
+        <td><%= mapel.kode %></td>
+        <td><%= mapel.nama %></td>
+        <td><%= link_to 'Show', mapel %></td>
+        <td><%= link_to 'Edit', edit_mapel_path(mapel) %></td>
+        <td><%= link_to 'Destroy', mapel, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Mapel', new_mapel_path %>

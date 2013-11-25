@@ -1,0 +1,29 @@
+<h1>Listing kelas</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nama</th>
+      <th>Walikelas</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @kelas.each do |kela| %>
+      <tr>
+        <td><%= kela.nama %></td>
+      
+        <td><%= link_to 'Show', kela %></td>
+        <td><%= link_to 'Edit', edit_kela_path(kela) %></td>
+        <td><%= link_to 'Destroy', kela, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Kela', new_kela_path %>

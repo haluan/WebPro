@@ -1,0 +1,31 @@
+<h1>Listing berekskuls</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tahun</th>
+      <th>Mahasiswa</th>
+      <th>Ekskul</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @berekskuls.each do |berekskul| %>
+      <tr>
+        <td><%= berekskul.tahun %></td>
+        <td><%= berekskul.mahasiswa_id %></td>
+        <td><%= berekskul.ekskul_id %></td>
+        <td><%= link_to 'Show', berekskul %></td>
+        <td><%= link_to 'Edit', edit_berekskul_path(berekskul) %></td>
+        <td><%= link_to 'Destroy', berekskul, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Berekskul', new_berekskul_path %>

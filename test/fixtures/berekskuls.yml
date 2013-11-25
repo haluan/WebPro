@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  tahun: MyString
+  mahasiswa_id: 1
+  ekskul_id: 1
+
+two:
+  tahun: MyString
+  mahasiswa_id: 1
+  ekskul_id: 1

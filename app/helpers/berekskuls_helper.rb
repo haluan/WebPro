@@ -1,0 +1,2 @@
+module BerekskulsHelper
+end

@@ -1,0 +1,29 @@
+<%= form_for(@berekskul) do |f| %>
+  <% if @berekskul.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@berekskul.errors.count, "error") %> prohibited this berekskul from being saved:</h2>
+
+      <ul>
+      <% @berekskul.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :tahun %><br>
+    <%= f.text_field :tahun %>
+  </div>
+  <div class="field">
+    <%= f.label :mahasiswa_id %><br>
+    <%= f.number_field :mahasiswa_id %>
+  </div>
+  <div class="field">
+    <%= f.label :ekskul_id %><br>
+    <%= f.number_field :ekskul_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  hari: MyString
+  tanggal: MyString
+  jam: MyString
+  kelas_id: 1
+  mengajar_id: 1
+
+two:
+  hari: MyString
+  tanggal: MyString
+  jam: MyString
+  kelas_id: 1
+  mengajar_id: 1

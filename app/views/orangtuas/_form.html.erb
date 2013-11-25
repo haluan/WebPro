@@ -1,0 +1,58 @@
+<%= form_for(@orangtua) do |f| %>
+  <% if @orangtua.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@orangtua.errors.count, "error") %> prohibited this orangtua from being saved:</h2>
+
+      <ul>
+      <% @orangtua.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :NIK %><br>
+    <%= f.text_field :NIK %>
+  </div>
+  <div class="field">
+    <%= f.label :nama %><br>
+    <%= f.text_field :nama %>
+  </div>
+  <div class="field">
+    <%= f.label :email %><br>
+    <%= f.text_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :password %><br>
+    <%= f.password_field :password %>
+  </div>
+  <div class="field">
+    <%= f.label :password_confirmation %><br>
+    <%= f.password_field :password_confirmation %>
+  </div>
+  <div class="field">
+    <%= f.label :alamat %><br>
+    <%= f.text_field :alamat %>
+  </div>
+  <div class="field">
+    <%= f.label :pekerjaan %><br>
+    <%= f.text_field :pekerjaan %>
+  </div>
+  <div class="field">
+    <%= f.label :agama %><br>
+    <%= f.text_field :agama %>
+  </div>
+  <div class="field">
+    <%= f.label :birthday %><br>
+    <%= f.text_field :birthday %>
+  </div>
+  <div class="field">
+    <%= f.label :birthplace %><br>
+    <%= f.text_field :birthplace %>
+  </div>
+ 
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

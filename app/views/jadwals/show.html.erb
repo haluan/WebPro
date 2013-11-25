@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Hari:</strong>
+  <%= @jadwal.hari %>
+</p>
+
+<p>
+  <strong>Jam:</strong>
+  <%= @jadwal.jam %>
+</p>
+
+<p>
+  <strong>Kelas:</strong>
+  <%= @jadwal.kela.nama %>
+</p>
+
+<p>
+  <strong>Mengajar:</strong>
+  <%= @jadwal.mengajar.tahun_ajaran %>
+</p>
+
+<%= link_to 'Edit', edit_jadwal_path(@jadwal) %> |
+<%= link_to 'Back', jadwals_path %>

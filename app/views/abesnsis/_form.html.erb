@@ -1,0 +1,29 @@
+<%= form_for(@abesnsi) do |f| %>
+  <% if @abesnsi.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@abesnsi.errors.count, "error") %> prohibited this abesnsi from being saved:</h2>
+
+      <ul>
+      <% @abesnsi.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :status %><br>
+    <%= f.text_field :status %>
+  </div>
+  <div class="field">
+    <%= f.label :siswa_id %><br>
+    <%= f.number_field :siswa_id %>
+  </div>
+  <div class="field">
+    <%= f.label :jadwal_id %><br>
+    <%= f.number_field :jadwal_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

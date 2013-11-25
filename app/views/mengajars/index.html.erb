@@ -1,0 +1,31 @@
+<h1>Listing mengajars</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tahun ajaran</th>
+      <th>Guru</th>
+      <th>Mapel</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @mengajars.each do |mengajar| %>
+      <tr>
+        <td><%= mengajar.tahun_ajaran %></td>
+        <td><%= mengajar.guru_id %></td>
+        <td><%= mengajar.mapel_id %></td>
+        <td><%= link_to 'Show', mengajar %></td>
+        <td><%= link_to 'Edit', edit_mengajar_path(mengajar) %></td>
+        <td><%= link_to 'Destroy', mengajar, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Mengajar', new_mengajar_path %>

@@ -1,0 +1,31 @@
+<h1>Listing nilaiakhirs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nilai</th>
+      <th>Berkelas</th>
+      <th>Mapel</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @nilaiakhirs.each do |nilaiakhir| %>
+      <tr>
+        <td><%= nilaiakhir.nilai %></td>
+        <td><%= nilaiakhir.berkelas_id %></td>
+        <td><%= nilaiakhir.mapel_id %></td>
+        <td><%= link_to 'Show', nilaiakhir %></td>
+        <td><%= link_to 'Edit', edit_nilaiakhir_path(nilaiakhir) %></td>
+        <td><%= link_to 'Destroy', nilaiakhir, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Nilaiakhir', new_nilaiakhir_path %>

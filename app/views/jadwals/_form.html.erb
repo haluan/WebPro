@@ -1,0 +1,34 @@
+<%= form_for(@jadwal) do |f| %>
+  <% if @jadwal.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@jadwal.errors.count, "error") %> prohibited this jadwal from being saved:</h2>
+
+      <ul>
+      <% @jadwal.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :hari %><br>
+    <%= f.text_field :hari %>
+  </div>
+ 
+  <div class="field">
+    <%= f.label :jam %><br>
+    <%= f.text_field :jam %>
+  </div>
+  <div class="field">
+    <%= f.label :kelas_id %><br>
+    <%= f.select :kela_id, kelaser %>
+  </div>
+  <div class="field">
+    <%= f.label :mengajar_id %><br>
+    <%= f.select :mengajar_id, mengajar %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

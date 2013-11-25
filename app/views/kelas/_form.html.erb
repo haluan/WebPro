@@ -1,0 +1,22 @@
+<%= form_for(@kela) do |f| %>
+  <% if @kela.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@kela.errors.count, "error") %> prohibited this kela from being saved:</h2>
+
+      <ul>
+      <% @kela.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :nama %><br>
+    <%= f.text_field :nama %>
+  </div>
+ 
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

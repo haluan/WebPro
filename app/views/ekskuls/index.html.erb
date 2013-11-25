@@ -1,0 +1,31 @@
+<h1>Listing ekskuls</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nama</th>
+      <th>Deskripsi</th>
+      <th>Guru</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @ekskuls.each do |ekskul| %>
+      <tr>
+        <td><%= ekskul.nama %></td>
+        <td><%= ekskul.deskripsi %></td>
+        <td><%= ekskul.guru_id %></td>
+        <td><%= link_to 'Show', ekskul %></td>
+        <td><%= link_to 'Edit', edit_ekskul_path(ekskul) %></td>
+        <td><%= link_to 'Destroy', ekskul, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Ekskul', new_ekskul_path %>

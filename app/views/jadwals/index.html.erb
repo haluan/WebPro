@@ -1,0 +1,36 @@
+<h1>Listing jadwals</h1>
+
+<table class="table table-condensed">
+  <thead>
+    <tr>
+      <th>Hari</th>
+      <th>Jam</th>
+      <th>Kelas</th>
+      <th>Mengajar</th>
+      <th>Tahun Ajaran</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @jadwals.each do |jadwal| %>
+      <tr>
+        <td><%= jadwal.hari %></td>
+    
+        <td><%= jadwal.jam %></td>
+        <td><%= jadwal.kela.nama %></td>
+        <td><%= jadwal.mengajar.guru.nama %></td>
+        <td><%= jadwal.mengajar.tahun_ajaran %></td>
+        <td><%= link_to 'Show', jadwal %></td>
+        <td><%= link_to 'Edit', edit_jadwal_path(jadwal) %></td>
+        <td><%= link_to 'Destroy', jadwal, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Jadwal', new_jadwal_path %>

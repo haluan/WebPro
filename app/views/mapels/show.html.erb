@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Kode:</strong>
+  <%= @mapel.kode %>
+</p>
+
+<p>
+  <strong>Nama:</strong>
+  <%= @mapel.nama %>
+</p>
+
+<%= link_to 'Edit', edit_mapel_path(@mapel) %> |
+<%= link_to 'Back', mapels_path %>

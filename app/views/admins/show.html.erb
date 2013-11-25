@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nip:</strong>
+  <%= @admin.nip %>
+</p>
+
+<p>
+  <strong>Nama:</strong>
+  <%= @admin.nama %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @admin.email %>
+</p>
+
+<p>
+  <strong>Password digest:</strong>
+  <%= @admin.password_digest %>
+</p>
+
+<p>
+  <strong>Alamat:</strong>
+  <%= @admin.alamat %>
+</p>
+
+<p>
+  <strong>Agama:</strong>
+  <%= @admin.agama %>
+</p>
+
+<p>
+  <strong>Birthday:</strong>
+  <%= @admin.birthday %>
+</p>
+
+<p>
+  <strong>Birthplace:</strong>
+  <%= @admin.birthplace %>
+</p>
+
+<p>
+  <strong>Ingat aku:</strong>
+  <%= @admin.ingat_aku %>
+</p>
+
+<%= link_to 'Edit', edit_admin_path(@admin) %> |
+<%= link_to 'Back', admins_path %>

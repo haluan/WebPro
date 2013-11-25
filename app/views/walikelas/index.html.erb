@@ -1,0 +1,31 @@
+<h1>Listing walikelas</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tahun ajaran</th>
+      <th>Kelas</th>
+      <th>Guru</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @walikelas.each do |walikela| %>
+      <tr>
+        <td><%= walikela.tahun_ajaran %></td>
+        <td><%= walikela.kela_id %></td>
+        <td><%= walikela.guru_id %></td>
+        <td><%= link_to 'Show', walikela %></td>
+        <td><%= link_to 'Edit', edit_walikela_path(walikela) %></td>
+        <td><%= link_to 'Destroy', walikela, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Walikela', new_walikela_path %>

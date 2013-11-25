@@ -1,0 +1,29 @@
+<h1>Listing profilsekolahs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Deskripsi</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @profilsekolahs.each do |profilsekolah| %>
+      <tr>
+        <td><%= profilsekolah.title %></td>
+        <td><%= profilsekolah.deskripsi %></td>
+        <td><%= link_to 'Show', profilsekolah %></td>
+        <td><%= link_to 'Edit', edit_profilsekolah_path(profilsekolah) %></td>
+        <td><%= link_to 'Destroy', profilsekolah, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Profilsekolah', new_profilsekolah_path %>
