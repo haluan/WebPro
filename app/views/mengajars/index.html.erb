@@ -1,6 +1,6 @@
 <h1>Listing mengajars</h1>
 
-<table>
+<table class="table table-condensed">
   <thead>
     <tr>
       <th>Tahun ajaran</th>
@@ -16,8 +16,8 @@
     <% @mengajars.each do |mengajar| %>
       <tr>
         <td><%= mengajar.tahun_ajaran %></td>
-        <td><%= mengajar.guru_id %></td>
-        <td><%= mengajar.mapel_id %></td>
+        <td><%= mengajar.guru.nama %></td>
+        <td><%= mengajar.mapel.nama %></td>
         <td><%= link_to 'Show', mengajar %></td>
         <td><%= link_to 'Edit', edit_mengajar_path(mengajar) %></td>
         <td><%= link_to 'Destroy', mengajar, method: :delete, data: { confirm: 'Are you sure?' } %></td>

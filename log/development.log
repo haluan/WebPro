@@ -89888,3 +89888,2663 @@ Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-11-25 17:16:56 +07
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:16:56 +0700
+
+
+Started GET "/mapels" for 127.0.0.1 at 2013-11-25 17:19:01 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MapelsController#index as HTML
+  [1m[35mMapel Load (0.1ms)[0m  SELECT "mapels".* FROM "mapels"
+  Rendered mapels/index.html.erb within layouts/application (12.4ms)
+  [1m[36mSiswa Load (0.1ms)[0m  [1mSELECT "siswas".* FROM "siswas" WHERE "siswas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mGuru Load (0.1ms)[0m  SELECT "gurus".* FROM "gurus" WHERE "gurus"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mOrangtua Load (0.1ms)[0m  [1mSELECT "orangtuas".* FROM "orangtuas" WHERE "orangtuas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mAdmin Load (0.1ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_layouts__navigation_html_erb__2698331327099988109_69990892739400 at /home/haluan/Dropbox/WebPro/app/views/layouts/_navigation.html.erb:60)
+  Rendered layouts/_navigation.html.erb (108.8ms)
+  Rendered layouts/_messages.html.erb (0.8ms)
+Completed 200 OK in 534ms (Views: 513.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/abesnsis.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/admins.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/berkelas.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/berekskuls.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/ekskuls.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/gurus.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/jadwals.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/mapels.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/kelas.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/mengajars.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/nilaiakhirs.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/orangtuas.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/profilsekolahs.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/siswas.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/walikelas.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ar.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.bg.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.br.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ca.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.cy.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.cs.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.da.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.de.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.el.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.es.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.et.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.fi.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.fr.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.gl.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.he.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.hr.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.hu.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.id.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:02 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.is.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.it.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ja.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ka.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.kr.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.lt.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.lv.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.mk.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ms.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.nb.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.nl-BE.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.nl.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.no.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.pl.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ro.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.pt.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.rs.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ru.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sk.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sl.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sq.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sv.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sw.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.th.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.tr.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.uk.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ua.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/index.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/abesnsis.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/admins.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/berekskuls.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/berkelas.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/ekskuls.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/gurus.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/jadwals.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/kelas.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/mapels.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/mengajars.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/nilaiakhirs.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/profilsekolahs.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/orangtuas.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/siswas.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/walikelas.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:03 +0700
+
+
+Started GET "/jadwals" for 127.0.0.1 at 2013-11-25 17:19:05 +0700
+Processing by JadwalsController#index as HTML
+  [1m[36mJadwal Load (0.2ms)[0m  [1mSELECT "jadwals".* FROM "jadwals"[0m
+  [1m[35mKela Load (1.7ms)[0m  SELECT "kelas".* FROM "kelas" WHERE "kelas"."id" = ? ORDER BY "kelas"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mMengajar Load (0.3ms)[0m  [1mSELECT "mengajars".* FROM "mengajars" WHERE "mengajars"."id" = ? ORDER BY "mengajars"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mGuru Load (0.5ms)[0m  SELECT "gurus".* FROM "gurus" WHERE "gurus"."id" = ? ORDER BY "gurus"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered jadwals/index.html.erb within layouts/application (127.7ms)
+  [1m[36mSiswa Load (0.2ms)[0m  [1mSELECT "siswas".* FROM "siswas" WHERE "siswas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mGuru Load (0.1ms)[0m  SELECT "gurus".* FROM "gurus" WHERE "gurus"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mOrangtua Load (0.1ms)[0m  [1mSELECT "orangtuas".* FROM "orangtuas" WHERE "orangtuas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mAdmin Load (0.1ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_layouts__navigation_html_erb__2698331327099988109_43088100 at /home/haluan/Dropbox/WebPro/app/views/layouts/_navigation.html.erb:60)
+  Rendered layouts/_navigation.html.erb (4.1ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+Completed 200 OK in 164ms (Views: 153.5ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/mengajars" for 127.0.0.1 at 2013-11-25 17:19:08 +0700
+Processing by MengajarsController#index as HTML
+  [1m[36mMengajar Load (0.1ms)[0m  [1mSELECT "mengajars".* FROM "mengajars"[0m
+  Rendered mengajars/index.html.erb within layouts/application (2.2ms)
+  [1m[35mSiswa Load (0.2ms)[0m  SELECT "siswas".* FROM "siswas" WHERE "siswas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mGuru Load (0.1ms)[0m  [1mSELECT "gurus".* FROM "gurus" WHERE "gurus"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mOrangtua Load (0.1ms)[0m  SELECT "orangtuas".* FROM "orangtuas" WHERE "orangtuas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mAdmin Load (0.2ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_layouts__navigation_html_erb__2698331327099988109_43088100 at /home/haluan/Dropbox/WebPro/app/views/layouts/_navigation.html.erb:60)
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 34ms (Views: 32.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/mengajars" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+Processing by MengajarsController#index as HTML
+  [1m[35mMengajar Load (0.2ms)[0m  SELECT "mengajars".* FROM "mengajars"
+  [1m[36mGuru Load (0.1ms)[0m  [1mSELECT "gurus".* FROM "gurus" WHERE "gurus"."id" = ? ORDER BY "gurus"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mMapel Load (0.2ms)[0m  SELECT "mapels".* FROM "mapels" WHERE "mapels"."id" = ? ORDER BY "mapels"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered mengajars/index.html.erb within layouts/application (4.5ms)
+  [1m[36mSiswa Load (0.8ms)[0m  [1mSELECT "siswas".* FROM "siswas" WHERE "siswas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mGuru Load (0.1ms)[0m  SELECT "gurus".* FROM "gurus" WHERE "gurus"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mOrangtua Load (0.1ms)[0m  [1mSELECT "orangtuas".* FROM "orangtuas" WHERE "orangtuas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mAdmin Load (0.1ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_layouts__navigation_html_erb__2698331327099988109_69990892739400 at /home/haluan/Dropbox/WebPro/app/views/layouts/_navigation.html.erb:60)
+  Rendered layouts/_navigation.html.erb (4.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 62ms (Views: 60.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/abesnsis.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/admins.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/ekskuls.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/berekskuls.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/berkelas.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/gurus.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/jadwals.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/kelas.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/mapels.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/nilaiakhirs.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/mengajars.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/orangtuas.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/profilsekolahs.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/siswas.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/walikelas.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ar.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.bg.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.br.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ca.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.cs.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.cy.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.da.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.de.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.el.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.es.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.et.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.fi.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.gl.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.fr.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.he.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.hr.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.hu.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.id.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.is.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ja.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.it.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.kr.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.lt.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ka.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.lv.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.mk.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ms.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.nb.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.nl.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.nl-BE.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:32 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.pl.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.no.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.pt.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ro.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.rs.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ru.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sk.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sl.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sv.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sq.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sw.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.th.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.tr.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ua.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.uk.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/index.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/abesnsis.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/admins.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/berekskuls.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/berkelas.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/ekskuls.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/gurus.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/jadwals.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/kelas.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/mengajars.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/mapels.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/orangtuas.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/nilaiakhirs.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/profilsekolahs.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/siswas.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/walikelas.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:33 +0700
+
+
+Started GET "/ekskuls" for 127.0.0.1 at 2013-11-25 17:19:35 +0700
+Processing by EkskulsController#index as HTML
+  [1m[36mEkskul Load (0.1ms)[0m  [1mSELECT "ekskuls".* FROM "ekskuls"[0m
+  Rendered ekskuls/index.html.erb within layouts/application (1.4ms)
+  [1m[35mSiswa Load (0.1ms)[0m  SELECT "siswas".* FROM "siswas" WHERE "siswas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mGuru Load (0.1ms)[0m  [1mSELECT "gurus".* FROM "gurus" WHERE "gurus"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mOrangtua Load (0.1ms)[0m  SELECT "orangtuas".* FROM "orangtuas" WHERE "orangtuas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mAdmin Load (0.1ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_layouts__navigation_html_erb__2698331327099988109_43088100 at /home/haluan/Dropbox/WebPro/app/views/layouts/_navigation.html.erb:60)
+  Rendered layouts/_navigation.html.erb (3.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 33ms (Views: 28.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/ekskuls" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+Processing by EkskulsController#index as HTML
+  [1m[35mEkskul Load (0.1ms)[0m  SELECT "ekskuls".* FROM "ekskuls"
+  Rendered ekskuls/index.html.erb within layouts/application (1.3ms)
+  [1m[36mSiswa Load (0.1ms)[0m  [1mSELECT "siswas".* FROM "siswas" WHERE "siswas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mGuru Load (0.1ms)[0m  SELECT "gurus".* FROM "gurus" WHERE "gurus"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mOrangtua Load (0.1ms)[0m  [1mSELECT "orangtuas".* FROM "orangtuas" WHERE "orangtuas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mAdmin Load (0.1ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_layouts__navigation_html_erb__2698331327099988109_69990892739400 at /home/haluan/Dropbox/WebPro/app/views/layouts/_navigation.html.erb:60)
+  Rendered layouts/_navigation.html.erb (3.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 66ms (Views: 64.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/berekskuls.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/abesnsis.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/berkelas.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/admins.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/gurus.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/ekskuls.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/jadwals.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/kelas.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/mapels.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/mengajars.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/nilaiakhirs.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/orangtuas.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/profilsekolahs.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/siswas.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/walikelas.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.bg.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ar.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ca.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.br.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.cs.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.cy.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.da.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.de.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.el.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.es.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.fi.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.et.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.gl.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.fr.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.he.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.hr.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.hu.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.id.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.is.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.it.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ja.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.kr.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ka.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.mk.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.lt.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.lv.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.nb.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ms.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.nl.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.nl-BE.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.no.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.pl.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.pt.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ro.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:57 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ru.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.rs.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sl.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sk.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sq.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sv.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sw.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.th.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.tr.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ua.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.uk.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/abesnsis.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/index.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/admins.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/ekskuls.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/berekskuls.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/berkelas.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/gurus.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/jadwals.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/mapels.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/kelas.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/mengajars.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/nilaiakhirs.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/orangtuas.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/profilsekolahs.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/walikelas.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/siswas.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:19:58 +0700
+
+
+Started GET "/ekskuls" for 127.0.0.1 at 2013-11-25 17:20:10 +0700
+Processing by EkskulsController#index as HTML
+  [1m[36mEkskul Load (0.2ms)[0m  [1mSELECT "ekskuls".* FROM "ekskuls"[0m
+  Rendered ekskuls/index.html.erb within layouts/application (0.8ms)
+  [1m[35mSiswa Load (0.1ms)[0m  SELECT "siswas".* FROM "siswas" WHERE "siswas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mGuru Load (0.2ms)[0m  [1mSELECT "gurus".* FROM "gurus" WHERE "gurus"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mOrangtua Load (0.2ms)[0m  SELECT "orangtuas".* FROM "orangtuas" WHERE "orangtuas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mAdmin Load (0.2ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_layouts__navigation_html_erb__2698331327099988109_69990892739400 at /home/haluan/Dropbox/WebPro/app/views/layouts/_navigation.html.erb:60)
+  Rendered layouts/_navigation.html.erb (4.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 36ms (Views: 34.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:10 +0700
+
+
+Started GET "/assets/admins.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/abesnsis.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/berekskuls.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/berkelas.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/ekskuls.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/gurus.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/jadwals.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/kelas.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/mengajars.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/mapels.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/nilaiakhirs.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/orangtuas.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/profilsekolahs.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/siswas.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/walikelas.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ar.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.bg.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.br.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ca.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.cs.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.de.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.el.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.da.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.cy.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.et.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.es.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.fi.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.fr.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.gl.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.he.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.hr.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.id.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.hu.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.is.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ja.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.it.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.kr.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ka.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.lt.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.lv.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.mk.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ms.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.nb.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.nl-BE.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.nl.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.no.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.pl.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.pt.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ro.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.rs.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ru.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.th.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sl.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sk.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sq.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sv.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sw.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.tr.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.uk.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ua.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/index.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/abesnsis.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/admins.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/ekskuls.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/berekskuls.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/gurus.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/berkelas.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/jadwals.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/kelas.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/mapels.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/nilaiakhirs.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/orangtuas.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/mengajars.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/profilsekolahs.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/siswas.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/walikelas.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:11 +0700
+
+
+Started GET "/ekskuls/new" for 127.0.0.1 at 2013-11-25 17:20:12 +0700
+Processing by EkskulsController#new as HTML
+DEPRECATION WARNING: Calling #find(:all) is deprecated. Please call #all directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from guru at /home/haluan/Dropbox/WebPro/app/helpers/mapels_helper.rb:3)
+DEPRECATION WARNING: Relation#all is deprecated. If you want to eager-load a relation, you can call #load (e.g. `Post.where(published: true).load`). If you want to get an array of records from a relation, you can call #to_a (e.g. `Post.where(published: true).to_a`). (called from guru at /home/haluan/Dropbox/WebPro/app/helpers/mapels_helper.rb:3)
+  [1m[35mGuru Load (0.2ms)[0m  SELECT "gurus".* FROM "gurus" ORDER BY nip
+  Rendered ekskuls/_form.html.erb (20.8ms)
+  Rendered ekskuls/new.html.erb within layouts/application (22.0ms)
+  [1m[36mSiswa Load (0.2ms)[0m  [1mSELECT "siswas".* FROM "siswas" WHERE "siswas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mGuru Load (0.1ms)[0m  SELECT "gurus".* FROM "gurus" WHERE "gurus"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mOrangtua Load (0.1ms)[0m  [1mSELECT "orangtuas".* FROM "orangtuas" WHERE "orangtuas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mAdmin Load (0.1ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_layouts__navigation_html_erb__2698331327099988109_43088100 at /home/haluan/Dropbox/WebPro/app/views/layouts/_navigation.html.erb:60)
+  Rendered layouts/_navigation.html.erb (3.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 51ms (Views: 48.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/kelas" for 127.0.0.1 at 2013-11-25 17:20:16 +0700
+Processing by KelasController#index as HTML
+  [1m[36mKela Load (0.1ms)[0m  [1mSELECT "kelas".* FROM "kelas"[0m
+  Rendered kelas/index.html.erb within layouts/application (2.6ms)
+  [1m[35mSiswa Load (0.2ms)[0m  SELECT "siswas".* FROM "siswas" WHERE "siswas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mGuru Load (0.1ms)[0m  [1mSELECT "gurus".* FROM "gurus" WHERE "gurus"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mOrangtua Load (0.1ms)[0m  SELECT "orangtuas".* FROM "orangtuas" WHERE "orangtuas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mAdmin Load (0.1ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_layouts__navigation_html_erb__2698331327099988109_43088100 at /home/haluan/Dropbox/WebPro/app/views/layouts/_navigation.html.erb:60)
+  Rendered layouts/_navigation.html.erb (3.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 30.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/kelas/new" for 127.0.0.1 at 2013-11-25 17:20:18 +0700
+Processing by KelasController#new as HTML
+  Rendered kelas/_form.html.erb (2.1ms)
+  Rendered kelas/new.html.erb within layouts/application (3.2ms)
+  [1m[35mSiswa Load (0.2ms)[0m  SELECT "siswas".* FROM "siswas" WHERE "siswas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mGuru Load (0.2ms)[0m  [1mSELECT "gurus".* FROM "gurus" WHERE "gurus"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mOrangtua Load (0.2ms)[0m  SELECT "orangtuas".* FROM "orangtuas" WHERE "orangtuas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mAdmin Load (0.2ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_layouts__navigation_html_erb__2698331327099988109_43088100 at /home/haluan/Dropbox/WebPro/app/views/layouts/_navigation.html.erb:60)
+  Rendered layouts/_navigation.html.erb (5.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 64ms (Views: 62.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/kelas" for 127.0.0.1 at 2013-11-25 17:20:42 +0700
+Processing by KelasController#index as HTML
+  [1m[35mKela Load (0.1ms)[0m  SELECT "kelas".* FROM "kelas"
+  Rendered kelas/index.html.erb within layouts/application (2.1ms)
+  [1m[36mSiswa Load (0.1ms)[0m  [1mSELECT "siswas".* FROM "siswas" WHERE "siswas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mGuru Load (0.1ms)[0m  SELECT "gurus".* FROM "gurus" WHERE "gurus"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mOrangtua Load (0.1ms)[0m  [1mSELECT "orangtuas".* FROM "orangtuas" WHERE "orangtuas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mAdmin Load (0.1ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_layouts__navigation_html_erb__2698331327099988109_69990892739400 at /home/haluan/Dropbox/WebPro/app/views/layouts/_navigation.html.erb:60)
+  Rendered layouts/_navigation.html.erb (3.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:42 +0700
+
+
+Started GET "/assets/abesnsis.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:42 +0700
+
+
+Started GET "/assets/admins.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:42 +0700
+
+
+Started GET "/assets/berekskuls.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:42 +0700
+
+
+Started GET "/assets/ekskuls.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:42 +0700
+
+
+Started GET "/assets/gurus.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:42 +0700
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:42 +0700
+
+
+Started GET "/assets/jadwals.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:42 +0700
+
+
+Started GET "/assets/berkelas.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:42 +0700
+
+
+Started GET "/assets/kelas.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:42 +0700
+
+
+Started GET "/assets/mapels.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:42 +0700
+
+
+Started GET "/assets/mengajars.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/nilaiakhirs.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/orangtuas.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/profilsekolahs.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/siswas.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/walikelas.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ar.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.bg.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ca.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.cs.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.br.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.cy.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.da.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.el.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.de.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.es.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.et.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.fi.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.fr.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.gl.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.hr.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.he.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.hu.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.id.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.is.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.it.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ja.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ka.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.kr.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.lt.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.mk.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.lv.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ms.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.nb.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.nl-BE.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.nl.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.no.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.pl.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.pt.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ro.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.rs.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ru.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sk.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sl.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sq.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sv.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.th.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sw.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.tr.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.uk.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ua.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/abesnsis.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/index.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/berekskuls.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/admins.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/berkelas.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/ekskuls.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/gurus.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/kelas.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/jadwals.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/mapels.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/mengajars.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/nilaiakhirs.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/orangtuas.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/profilsekolahs.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/siswas.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/walikelas.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:20:43 +0700
+
+
+Started GET "/walikelas" for 127.0.0.1 at 2013-11-25 17:20:45 +0700
+Processing by WalikelasController#index as HTML
+  [1m[36mWalikela Load (0.1ms)[0m  [1mSELECT "walikelas".* FROM "walikelas"[0m
+  Rendered walikelas/index.html.erb within layouts/application (1.4ms)
+  [1m[35mSiswa Load (0.1ms)[0m  SELECT "siswas".* FROM "siswas" WHERE "siswas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mGuru Load (0.2ms)[0m  [1mSELECT "gurus".* FROM "gurus" WHERE "gurus"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mOrangtua Load (0.2ms)[0m  SELECT "orangtuas".* FROM "orangtuas" WHERE "orangtuas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mAdmin Load (0.2ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_layouts__navigation_html_erb__2698331327099988109_43088100 at /home/haluan/Dropbox/WebPro/app/views/layouts/_navigation.html.erb:60)
+  Rendered layouts/_navigation.html.erb (5.0ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 68ms (Views: 63.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/walikelas/new" for 127.0.0.1 at 2013-11-25 17:20:46 +0700
+Processing by WalikelasController#new as HTML
+DEPRECATION WARNING: Calling #find(:all) is deprecated. Please call #all directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from kelaser at /home/haluan/Dropbox/WebPro/app/helpers/mapels_helper.rb:10)
+DEPRECATION WARNING: Relation#all is deprecated. If you want to eager-load a relation, you can call #load (e.g. `Post.where(published: true).load`). If you want to get an array of records from a relation, you can call #to_a (e.g. `Post.where(published: true).to_a`). (called from kelaser at /home/haluan/Dropbox/WebPro/app/helpers/mapels_helper.rb:10)
+  [1m[35mKela Load (0.2ms)[0m  SELECT "kelas".* FROM "kelas" ORDER BY nama
+DEPRECATION WARNING: Calling #find(:all) is deprecated. Please call #all directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from guru at /home/haluan/Dropbox/WebPro/app/helpers/mapels_helper.rb:3)
+DEPRECATION WARNING: Relation#all is deprecated. If you want to eager-load a relation, you can call #load (e.g. `Post.where(published: true).load`). If you want to get an array of records from a relation, you can call #to_a (e.g. `Post.where(published: true).to_a`). (called from guru at /home/haluan/Dropbox/WebPro/app/helpers/mapels_helper.rb:3)
+  [1m[36mGuru Load (0.2ms)[0m  [1mSELECT "gurus".* FROM "gurus" ORDER BY nip[0m
+  Rendered walikelas/_form.html.erb (16.5ms)
+  Rendered walikelas/new.html.erb within layouts/application (17.6ms)
+  [1m[35mSiswa Load (0.2ms)[0m  SELECT "siswas".* FROM "siswas" WHERE "siswas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mGuru Load (0.1ms)[0m  [1mSELECT "gurus".* FROM "gurus" WHERE "gurus"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mOrangtua Load (0.1ms)[0m  SELECT "orangtuas".* FROM "orangtuas" WHERE "orangtuas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mAdmin Load (0.1ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_layouts__navigation_html_erb__2698331327099988109_43088100 at /home/haluan/Dropbox/WebPro/app/views/layouts/_navigation.html.erb:60)
+  Rendered layouts/_navigation.html.erb (3.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 45.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/walikelas/new" for 127.0.0.1 at 2013-11-25 17:21:10 +0700
+Processing by WalikelasController#new as HTML
+DEPRECATION WARNING: Calling #find(:all) is deprecated. Please call #all directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from kelaser at /home/haluan/Dropbox/WebPro/app/helpers/mapels_helper.rb:10)
+DEPRECATION WARNING: Relation#all is deprecated. If you want to eager-load a relation, you can call #load (e.g. `Post.where(published: true).load`). If you want to get an array of records from a relation, you can call #to_a (e.g. `Post.where(published: true).to_a`). (called from kelaser at /home/haluan/Dropbox/WebPro/app/helpers/mapels_helper.rb:10)
+  [1m[35mKela Load (0.2ms)[0m  SELECT "kelas".* FROM "kelas" ORDER BY nama
+DEPRECATION WARNING: Calling #find(:all) is deprecated. Please call #all directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from guru at /home/haluan/Dropbox/WebPro/app/helpers/mapels_helper.rb:3)
+DEPRECATION WARNING: Relation#all is deprecated. If you want to eager-load a relation, you can call #load (e.g. `Post.where(published: true).load`). If you want to get an array of records from a relation, you can call #to_a (e.g. `Post.where(published: true).to_a`). (called from guru at /home/haluan/Dropbox/WebPro/app/helpers/mapels_helper.rb:3)
+  [1m[36mGuru Load (0.2ms)[0m  [1mSELECT "gurus".* FROM "gurus" ORDER BY nip[0m
+  Rendered walikelas/_form.html.erb (8.2ms)
+  Rendered walikelas/new.html.erb within layouts/application (9.5ms)
+  [1m[35mSiswa Load (0.1ms)[0m  SELECT "siswas".* FROM "siswas" WHERE "siswas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mGuru Load (0.1ms)[0m  [1mSELECT "gurus".* FROM "gurus" WHERE "gurus"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mOrangtua Load (0.1ms)[0m  SELECT "orangtuas".* FROM "orangtuas" WHERE "orangtuas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mAdmin Load (0.1ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_layouts__navigation_html_erb__2698331327099988109_69990892739400 at /home/haluan/Dropbox/WebPro/app/views/layouts/_navigation.html.erb:60)
+  Rendered layouts/_navigation.html.erb (3.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 38ms (Views: 36.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/berekskuls.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/ekskuls.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/berkelas.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/abesnsis.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/admins.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/gurus.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/jadwals.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/mapels.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/orangtuas.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/mengajars.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/nilaiakhirs.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/profilsekolahs.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/kelas.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/siswas.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/walikelas.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ar.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.bg.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.br.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ca.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.cs.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.cy.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.da.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.de.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.es.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.el.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.et.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.fi.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.fr.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.gl.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.he.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.hr.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.id.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.hu.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.is.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.it.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ja.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ka.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.kr.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.lt.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.lv.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.mk.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ms.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.nb.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.nl-BE.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.nl.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.no.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.pl.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.pt.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ro.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.rs.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ru.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sk.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sl.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sq.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sv.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.th.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sw.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.tr.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ua.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.uk.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/index.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/abesnsis.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/admins.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/berkelas.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/berekskuls.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/ekskuls.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/jadwals.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/gurus.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/kelas.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/mapels.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/nilaiakhirs.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/mengajars.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/profilsekolahs.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/orangtuas.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/siswas.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/walikelas.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:11 +0700
+
+
+Started GET "/walikelas" for 127.0.0.1 at 2013-11-25 17:21:15 +0700
+Processing by WalikelasController#index as HTML
+  [1m[35mWalikela Load (0.1ms)[0m  SELECT "walikelas".* FROM "walikelas"
+  Rendered walikelas/index.html.erb within layouts/application (1.3ms)
+  [1m[36mSiswa Load (0.1ms)[0m  [1mSELECT "siswas".* FROM "siswas" WHERE "siswas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mGuru Load (0.1ms)[0m  SELECT "gurus".* FROM "gurus" WHERE "gurus"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mOrangtua Load (0.1ms)[0m  [1mSELECT "orangtuas".* FROM "orangtuas" WHERE "orangtuas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mAdmin Load (0.1ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_layouts__navigation_html_erb__2698331327099988109_43088100 at /home/haluan/Dropbox/WebPro/app/views/layouts/_navigation.html.erb:60)
+  Rendered layouts/_navigation.html.erb (3.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/walikelas/new" for 127.0.0.1 at 2013-11-25 17:21:19 +0700
+Processing by WalikelasController#new as HTML
+DEPRECATION WARNING: Calling #find(:all) is deprecated. Please call #all directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from kelaser at /home/haluan/Dropbox/WebPro/app/helpers/mapels_helper.rb:10)
+DEPRECATION WARNING: Relation#all is deprecated. If you want to eager-load a relation, you can call #load (e.g. `Post.where(published: true).load`). If you want to get an array of records from a relation, you can call #to_a (e.g. `Post.where(published: true).to_a`). (called from kelaser at /home/haluan/Dropbox/WebPro/app/helpers/mapels_helper.rb:10)
+  [1m[36mKela Load (0.2ms)[0m  [1mSELECT "kelas".* FROM "kelas" ORDER BY nama[0m
+DEPRECATION WARNING: Calling #find(:all) is deprecated. Please call #all directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from guru at /home/haluan/Dropbox/WebPro/app/helpers/mapels_helper.rb:3)
+DEPRECATION WARNING: Relation#all is deprecated. If you want to eager-load a relation, you can call #load (e.g. `Post.where(published: true).load`). If you want to get an array of records from a relation, you can call #to_a (e.g. `Post.where(published: true).to_a`). (called from guru at /home/haluan/Dropbox/WebPro/app/helpers/mapels_helper.rb:3)
+  [1m[35mGuru Load (0.2ms)[0m  SELECT "gurus".* FROM "gurus" ORDER BY nip
+  Rendered walikelas/_form.html.erb (8.2ms)
+  Rendered walikelas/new.html.erb within layouts/application (9.3ms)
+  [1m[36mSiswa Load (0.1ms)[0m  [1mSELECT "siswas".* FROM "siswas" WHERE "siswas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mGuru Load (0.2ms)[0m  SELECT "gurus".* FROM "gurus" WHERE "gurus"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mOrangtua Load (0.2ms)[0m  [1mSELECT "orangtuas".* FROM "orangtuas" WHERE "orangtuas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mAdmin Load (0.2ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_layouts__navigation_html_erb__2698331327099988109_43088100 at /home/haluan/Dropbox/WebPro/app/views/layouts/_navigation.html.erb:60)
+  Rendered layouts/_navigation.html.erb (5.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 51ms (Views: 49.1ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/walikelas" for 127.0.0.1 at 2013-11-25 17:21:21 +0700
+Processing by WalikelasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4y/iluTSUaiA+2MhDsMPIQ9Wttf/pF/SmsWEDzazBWA=", "walikela"=>{"tahun_ajaran"=>"2013", "kela_id"=>"1", "guru_id"=>"1"}, "commit"=>"Create Walikela"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "walikelas" ("created_at", "guru_id", "kela_id", "tahun_ajaran", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 25 Nov 2013 10:21:21 UTC +00:00], ["guru_id", 1], ["kela_id", 1], ["tahun_ajaran", "2013"], ["updated_at", Mon, 25 Nov 2013 10:21:21 UTC +00:00]]
+  [1m[36m (504.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/walikelas/1
+Completed 302 Found in 515ms (ActiveRecord: 505.6ms)
+
+
+Started GET "/walikelas/1" for 127.0.0.1 at 2013-11-25 17:21:21 +0700
+Processing by WalikelasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mWalikela Load (0.2ms)[0m  SELECT "walikelas".* FROM "walikelas" WHERE "walikelas"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mKela Load (0.1ms)[0m  [1mSELECT "kelas".* FROM "kelas" WHERE "kelas"."id" = ? ORDER BY "kelas"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mGuru Load (0.1ms)[0m  SELECT "gurus".* FROM "gurus" WHERE "gurus"."id" = ? ORDER BY "gurus"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered walikelas/show.html.erb within layouts/application (4.6ms)
+  [1m[36mSiswa Load (0.2ms)[0m  [1mSELECT "siswas".* FROM "siswas" WHERE "siswas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mGuru Load (0.1ms)[0m  SELECT "gurus".* FROM "gurus" WHERE "gurus"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mOrangtua Load (0.1ms)[0m  [1mSELECT "orangtuas".* FROM "orangtuas" WHERE "orangtuas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mAdmin Load (0.2ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_layouts__navigation_html_erb__2698331327099988109_69990892739400 at /home/haluan/Dropbox/WebPro/app/views/layouts/_navigation.html.erb:60)
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 66ms (Views: 63.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/abesnsis.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/admins.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/berekskuls.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/berkelas.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/ekskuls.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/gurus.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/jadwals.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/kelas.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/mapels.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/mengajars.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/nilaiakhirs.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/orangtuas.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/profilsekolahs.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/siswas.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/walikelas.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker.css?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/core.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ar.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.bg.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ca.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.cs.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.br.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.cy.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.da.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.de.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.el.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.es.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.et.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.fi.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.fr.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.gl.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.he.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.hr.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.hu.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.id.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.is.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ja.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.it.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.kr.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ka.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.lt.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.mk.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.lv.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.nb.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ms.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.nl.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.nl-BE.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.no.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.pl.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.pt.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ro.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ru.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.rs.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sk.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sl.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sq.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sv.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sw.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.th.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.tr.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ua.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.uk.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/index.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/abesnsis.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/admins.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/berekskuls.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/berkelas.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/ekskuls.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/gurus.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/jadwals.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/kelas.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/mapels.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/mengajars.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/nilaiakhirs.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/orangtuas.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/profilsekolahs.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/siswas.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/walikelas.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:21:22 +0700
+
+
+Started GET "/walikelas" for 127.0.0.1 at 2013-11-25 17:21:23 +0700
+Processing by WalikelasController#index as HTML
+  [1m[36mWalikela Load (0.1ms)[0m  [1mSELECT "walikelas".* FROM "walikelas"[0m
+  [1m[35mKela Load (0.1ms)[0m  SELECT "kelas".* FROM "kelas" WHERE "kelas"."id" = ? ORDER BY "kelas"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mGuru Load (0.1ms)[0m  [1mSELECT "gurus".* FROM "gurus" WHERE "gurus"."id" = ? ORDER BY "gurus"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered walikelas/index.html.erb within layouts/application (2.6ms)
+  [1m[35mSiswa Load (0.1ms)[0m  SELECT "siswas".* FROM "siswas" WHERE "siswas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mGuru Load (0.2ms)[0m  [1mSELECT "gurus".* FROM "gurus" WHERE "gurus"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mOrangtua Load (0.2ms)[0m  SELECT "orangtuas".* FROM "orangtuas" WHERE "orangtuas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mAdmin Load (0.2ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_layouts__navigation_html_erb__2698331327099988109_43088100 at /home/haluan/Dropbox/WebPro/app/views/layouts/_navigation.html.erb:60)
+  Rendered layouts/_navigation.html.erb (4.5ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 32ms (Views: 30.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/mengajars" for 127.0.0.1 at 2013-11-25 17:21:28 +0700
+Processing by MengajarsController#index as HTML
+  [1m[35mMengajar Load (0.1ms)[0m  SELECT "mengajars".* FROM "mengajars"
+  [1m[36mGuru Load (0.2ms)[0m  [1mSELECT "gurus".* FROM "gurus" WHERE "gurus"."id" = ? ORDER BY "gurus"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mMapel Load (0.1ms)[0m  SELECT "mapels".* FROM "mapels" WHERE "mapels"."id" = ? ORDER BY "mapels"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered mengajars/index.html.erb within layouts/application (5.2ms)
+  [1m[36mSiswa Load (0.1ms)[0m  [1mSELECT "siswas".* FROM "siswas" WHERE "siswas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mGuru Load (0.2ms)[0m  SELECT "gurus".* FROM "gurus" WHERE "gurus"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mOrangtua Load (0.2ms)[0m  [1mSELECT "orangtuas".* FROM "orangtuas" WHERE "orangtuas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mAdmin Load (0.2ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_layouts__navigation_html_erb__2698331327099988109_43088100 at /home/haluan/Dropbox/WebPro/app/views/layouts/_navigation.html.erb:60)
+  Rendered layouts/_navigation.html.erb (4.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 45ms (Views: 43.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/kelas" for 127.0.0.1 at 2013-11-25 17:21:30 +0700
+Processing by KelasController#index as HTML
+  [1m[36mKela Load (0.1ms)[0m  [1mSELECT "kelas".* FROM "kelas"[0m
+  Rendered kelas/index.html.erb within layouts/application (2.8ms)
+  [1m[35mSiswa Load (0.1ms)[0m  SELECT "siswas".* FROM "siswas" WHERE "siswas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mGuru Load (0.2ms)[0m  [1mSELECT "gurus".* FROM "gurus" WHERE "gurus"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mOrangtua Load (0.2ms)[0m  SELECT "orangtuas".* FROM "orangtuas" WHERE "orangtuas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mAdmin Load (0.2ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_layouts__navigation_html_erb__2698331327099988109_43088100 at /home/haluan/Dropbox/WebPro/app/views/layouts/_navigation.html.erb:60)
+  Rendered layouts/_navigation.html.erb (4.7ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+Completed 200 OK in 35ms (Views: 32.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/mapels" for 127.0.0.1 at 2013-11-25 17:21:32 +0700
+Processing by MapelsController#index as HTML
+  [1m[35mMapel Load (0.2ms)[0m  SELECT "mapels".* FROM "mapels"
+  Rendered mapels/index.html.erb within layouts/application (2.4ms)
+  [1m[36mSiswa Load (0.2ms)[0m  [1mSELECT "siswas".* FROM "siswas" WHERE "siswas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mGuru Load (0.1ms)[0m  SELECT "gurus".* FROM "gurus" WHERE "gurus"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mOrangtua Load (0.1ms)[0m  [1mSELECT "orangtuas".* FROM "orangtuas" WHERE "orangtuas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mAdmin Load (0.1ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_layouts__navigation_html_erb__2698331327099988109_43088100 at /home/haluan/Dropbox/WebPro/app/views/layouts/_navigation.html.erb:60)
+  Rendered layouts/_navigation.html.erb (3.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 40ms (Views: 38.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/jadwals" for 127.0.0.1 at 2013-11-25 17:21:33 +0700
+Processing by JadwalsController#index as HTML
+  [1m[36mJadwal Load (0.1ms)[0m  [1mSELECT "jadwals".* FROM "jadwals"[0m
+  [1m[35mKela Load (0.1ms)[0m  SELECT "kelas".* FROM "kelas" WHERE "kelas"."id" = ? ORDER BY "kelas"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mMengajar Load (0.1ms)[0m  [1mSELECT "mengajars".* FROM "mengajars" WHERE "mengajars"."id" = ? ORDER BY "mengajars"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mGuru Load (0.1ms)[0m  SELECT "gurus".* FROM "gurus" WHERE "gurus"."id" = ? ORDER BY "gurus"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered jadwals/index.html.erb within layouts/application (3.7ms)
+  [1m[36mSiswa Load (0.1ms)[0m  [1mSELECT "siswas".* FROM "siswas" WHERE "siswas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mGuru Load (0.1ms)[0m  SELECT "gurus".* FROM "gurus" WHERE "gurus"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mOrangtua Load (0.1ms)[0m  [1mSELECT "orangtuas".* FROM "orangtuas" WHERE "orangtuas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mAdmin Load (0.1ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_layouts__navigation_html_erb__2698331327099988109_43088100 at /home/haluan/Dropbox/WebPro/app/views/layouts/_navigation.html.erb:60)
+  Rendered layouts/_navigation.html.erb (3.1ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 30.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/ekskuls" for 127.0.0.1 at 2013-11-25 17:21:34 +0700
+Processing by EkskulsController#index as HTML
+  [1m[36mEkskul Load (0.2ms)[0m  [1mSELECT "ekskuls".* FROM "ekskuls"[0m
+  Rendered ekskuls/index.html.erb within layouts/application (1.8ms)
+  [1m[35mSiswa Load (0.2ms)[0m  SELECT "siswas".* FROM "siswas" WHERE "siswas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mGuru Load (0.1ms)[0m  [1mSELECT "gurus".* FROM "gurus" WHERE "gurus"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mOrangtua Load (0.1ms)[0m  SELECT "orangtuas".* FROM "orangtuas" WHERE "orangtuas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mAdmin Load (0.2ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_layouts__navigation_html_erb__2698331327099988109_43088100 at /home/haluan/Dropbox/WebPro/app/views/layouts/_navigation.html.erb:60)
+  Rendered layouts/_navigation.html.erb (3.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 30.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/mengajars" for 127.0.0.1 at 2013-11-25 17:21:35 +0700
+Processing by MengajarsController#index as HTML
+  [1m[35mMengajar Load (0.2ms)[0m  SELECT "mengajars".* FROM "mengajars"
+  [1m[36mGuru Load (0.2ms)[0m  [1mSELECT "gurus".* FROM "gurus" WHERE "gurus"."id" = ? ORDER BY "gurus"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mMapel Load (0.2ms)[0m  SELECT "mapels".* FROM "mapels" WHERE "mapels"."id" = ? ORDER BY "mapels"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered mengajars/index.html.erb within layouts/application (6.1ms)
+  [1m[36mSiswa Load (0.2ms)[0m  [1mSELECT "siswas".* FROM "siswas" WHERE "siswas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mGuru Load (0.2ms)[0m  SELECT "gurus".* FROM "gurus" WHERE "gurus"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mOrangtua Load (0.1ms)[0m  [1mSELECT "orangtuas".* FROM "orangtuas" WHERE "orangtuas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mAdmin Load (0.1ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_layouts__navigation_html_erb__2698331327099988109_43088100 at /home/haluan/Dropbox/WebPro/app/views/layouts/_navigation.html.erb:60)
+  Rendered layouts/_navigation.html.erb (3.8ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 82ms (Views: 79.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/gurus" for 127.0.0.1 at 2013-11-25 17:21:37 +0700
+Processing by GurusController#index as HTML
+  [1m[36mGuru Load (0.2ms)[0m  [1mSELECT "gurus".* FROM "gurus"[0m
+  Rendered gurus/index.html.erb within layouts/application (2.4ms)
+  [1m[35mSiswa Load (0.2ms)[0m  SELECT "siswas".* FROM "siswas" WHERE "siswas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mGuru Load (0.1ms)[0m  [1mSELECT "gurus".* FROM "gurus" WHERE "gurus"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mOrangtua Load (0.1ms)[0m  SELECT "orangtuas".* FROM "orangtuas" WHERE "orangtuas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mAdmin Load (0.1ms)[0m  [1mSELECT "admins".* FROM "admins" WHERE "admins"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_layouts__navigation_html_erb__2698331327099988109_43088100 at /home/haluan/Dropbox/WebPro/app/views/layouts/_navigation.html.erb:60)
+  Rendered layouts/_navigation.html.erb (3.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 34ms (Views: 32.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/orangtuas" for 127.0.0.1 at 2013-11-25 17:21:38 +0700
+Processing by OrangtuasController#index as HTML
+  [1m[35mOrangtua Load (0.2ms)[0m  SELECT "orangtuas".* FROM "orangtuas"
+  Rendered orangtuas/index.html.erb within layouts/application (24.3ms)
+  [1m[36mSiswa Load (0.2ms)[0m  [1mSELECT "siswas".* FROM "siswas" WHERE "siswas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mGuru Load (0.2ms)[0m  SELECT "gurus".* FROM "gurus" WHERE "gurus"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+  [1m[36mOrangtua Load (0.2ms)[0m  [1mSELECT "orangtuas".* FROM "orangtuas" WHERE "orangtuas"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1[0m
+  [1m[35mAdmin Load (0.2ms)[0m  SELECT "admins".* FROM "admins" WHERE "admins"."ingat_aku" = '8yCgs5MtsDRFHDP7cMjQZw' LIMIT 1
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_layouts__navigation_html_erb__2698331327099988109_43088100 at /home/haluan/Dropbox/WebPro/app/views/layouts/_navigation.html.erb:60)
+  Rendered layouts/_navigation.html.erb (4.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 57ms (Views: 54.8ms | ActiveRecord: 0.9ms)
