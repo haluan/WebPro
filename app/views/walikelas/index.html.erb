@@ -1,5 +1,6 @@
-<h1>Listing walikelas</h1>
+<h1>Daftar Walikelas</h1>
 
+<%= link_to '+ Walikelas', new_walikela_path, class:"btn btn-primary white", style:"color:white;" %>
 <table class="table table-condensed">
   <thead>
     <tr>
@@ -18,9 +19,9 @@
         <td><%= walikela.tahun_ajaran %></td>
         <td><%= walikela.kela.nama %></td>
         <td><%= walikela.guru.nama %></td>
-        <td><%= link_to 'Show', walikela %></td>
-        <td><%= link_to 'Edit', edit_walikela_path(walikela) %></td>
-        <td><%= link_to 'Destroy', walikela, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', walikela, class:"btn btn-info" %></td>
+        <td><%= link_to 'Edit', edit_walikela_path(walikela), class:"btn btn-warning" %></td>
+        <td><%= link_to 'Destroy', walikela, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-danger" %></td>
       </tr>
     <% end %>
   </tbody>
@@ -28,4 +29,3 @@
 
 <br>
 
-<%= link_to 'New Walikela', new_walikela_path %>

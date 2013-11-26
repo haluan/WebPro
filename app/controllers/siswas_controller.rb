@@ -19,6 +19,7 @@ class SiswasController < ApplicationController
 
   # GET /siswas/1/edit
   def edit
+    @siswa.orangtua_id=@siswa.orangtua.nama
   end
 
   # POST /siswas

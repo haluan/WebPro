@@ -1,6 +1,6 @@
-<h1>Listing profilsekolahs</h1>
-
-<table>
+<h1>Daftar Informasi Sekolah</h1>
+<%= link_to '+ Info', new_profilsekolah_path, class:"btn btn-primary white", style:"color:white;" %>
+<table class="table table-condensed">
   <thead>
     <tr>
       <th>Title</th>
@@ -16,9 +16,9 @@
       <tr>
         <td><%= profilsekolah.title %></td>
         <td><%= profilsekolah.deskripsi %></td>
-        <td><%= link_to 'Show', profilsekolah %></td>
-        <td><%= link_to 'Edit', edit_profilsekolah_path(profilsekolah) %></td>
-        <td><%= link_to 'Destroy', profilsekolah, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', profilsekolah , class:"btn btn-info"%></td>
+        <td><%= link_to 'Edit', edit_profilsekolah_path(profilsekolah), class:"btn btn-warning" %></td>
+        <td><%= link_to 'Destroy', profilsekolah, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-danger" %></td>
       </tr>
     <% end %>
   </tbody>
@@ -26,4 +26,4 @@
 
 <br>
 
-<%= link_to 'New Profilsekolah', new_profilsekolah_path %>
+

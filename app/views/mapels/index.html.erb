@@ -1,5 +1,5 @@
-<h1>Listing mapels</h1>
-
+<h1>Daftar Mata Pelajaran</h1>
+<%= link_to '+ Mata Pelajaran', new_mapel_path, class:"btn btn-primary white", style:"color:white;" %>
 <table class="table table-condensed">
   <thead>
     <tr>
@@ -16,9 +16,9 @@
       <tr>
         <td><%= mapel.kode %></td>
         <td><%= mapel.nama %></td>
-        <td><%= link_to 'Show', mapel %></td>
-        <td><%= link_to 'Edit', edit_mapel_path(mapel) %></td>
-        <td><%= link_to 'Destroy', mapel, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', mapel, class:"btn btn-info" %></td>
+        <td><%= link_to 'Edit', edit_mapel_path(mapel) , class:"btn btn-warning"%></td>
+        <td><%= link_to 'Destroy', mapel, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-danger" %></td>
       </tr>
     <% end %>
   </tbody>
@@ -26,4 +26,4 @@
 
 <br>
 
-<%= link_to 'New Mapel', new_mapel_path %>
+

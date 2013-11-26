@@ -1,5 +1,5 @@
-<h1>Listing abesnsis</h1>
-
+<h1>Daftar Absesnsi</h1>
+<%= link_to '+ Abesnsi', new_abesnsi_path, class:"btn btn-primary white", style:"color:white;"  %>
 <table class="table table-condensed">
   <thead>
     <tr>
@@ -18,9 +18,9 @@
         <td><%= abesnsi.status %></td>
         <td><%= abesnsi.siswa.nama %></td>
         <td><%= abesnsi.jadwal.hari %> <%=abesnsi.jadwal.tanggal%> <%=abesnsi.jadwal.kelas.nama%></td>
-        <td><%= link_to 'Show', abesnsi %></td>
-        <td><%= link_to 'Edit', edit_abesnsi_path(abesnsi) %></td>
-        <td><%= link_to 'Destroy', abesnsi, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', abesnsi, class:"btn btn-info" %></td>
+        <td><%= link_to 'Edit', edit_abesnsi_path(abesnsi), class:"btn btn-warning" %></td>
+        <td><%= link_to 'Destroy', abesnsi, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-danger" %></td>
       </tr>
     <% end %>
   </tbody>
@@ -28,4 +28,4 @@
 
 <br>
 
-<%= link_to 'New Abesnsi', new_abesnsi_path %>
+

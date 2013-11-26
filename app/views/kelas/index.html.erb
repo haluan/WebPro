@@ -1,5 +1,5 @@
-<h1>Listing kelas</h1>
-
+<h1>Daftar Kelas</h1>
+<%= link_to '+ Kelas', new_kela_path, class:"btn btn-primary white", style:"color:white;"  %>
 <table class="table table-condensed">
   <thead>
     <tr>
@@ -16,9 +16,9 @@
       <tr>
         <td><%= kela.nama %></td>
       
-        <td><%= link_to 'Show', kela %></td>
-        <td><%= link_to 'Edit', edit_kela_path(kela) %></td>
-        <td><%= link_to 'Destroy', kela, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', kela, class:"btn btn-info" %></td>
+        <td><%= link_to 'Edit', edit_kela_path(kela), class:"btn btn-warning" %></td>
+        <td><%= link_to 'Destroy', kela, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-danger" %></td>
       </tr>
     <% end %>
   </tbody>
@@ -26,4 +26,4 @@
 
 <br>
 
-<%= link_to 'New Kela', new_kela_path %>
+

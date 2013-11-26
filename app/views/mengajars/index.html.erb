@@ -1,4 +1,6 @@
-<h1>Listing mengajars</h1>
+<h1>Daftar mengajar Guru</h1>
+
+<%= link_to '+ Mengajar', new_mengajar_path, class:"btn btn-primary white", style:"color:white;" %>
 
 <table class="table table-condensed">
   <thead>
@@ -18,9 +20,9 @@
         <td><%= mengajar.tahun_ajaran %></td>
         <td><%= mengajar.guru.nama %></td>
         <td><%= mengajar.mapel.nama %></td>
-        <td><%= link_to 'Show', mengajar %></td>
-        <td><%= link_to 'Edit', edit_mengajar_path(mengajar) %></td>
-        <td><%= link_to 'Destroy', mengajar, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', mengajar, class:"btn btn-info" %></td>
+        <td><%= link_to 'Edit', edit_mengajar_path(mengajar), class:"btn btn-warning" %></td>
+        <td><%= link_to 'Destroy', mengajar, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-danger" %></td>
       </tr>
     <% end %>
   </tbody>
@@ -28,4 +30,3 @@
 
 <br>
 
-<%= link_to 'New Mengajar', new_mengajar_path %>

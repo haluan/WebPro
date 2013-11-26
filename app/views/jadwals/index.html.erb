@@ -1,5 +1,5 @@
-<h1>Listing jadwals</h1>
-
+<h1>Daftar Jadwal</h1>
+<%= link_to '+ Jadwal', new_jadwal_path, class:"btn btn-primary white", style:"color:white;"   %>
 <table class="table table-condensed">
   <thead>
     <tr>
@@ -23,9 +23,9 @@
         <td><%= jadwal.kela.nama %></td>
         <td><%= jadwal.mengajar.guru.nama %></td>
         <td><%= jadwal.mengajar.tahun_ajaran %></td>
-        <td><%= link_to 'Show', jadwal %></td>
-        <td><%= link_to 'Edit', edit_jadwal_path(jadwal) %></td>
-        <td><%= link_to 'Destroy', jadwal, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', jadwal, class:"btn btn-info" %></td>
+        <td><%= link_to 'Edit', edit_jadwal_path(jadwal), class:"btn btn-warning" %></td>
+        <td><%= link_to 'Destroy', jadwal, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-danger" %></td>
       </tr>
     <% end %>
   </tbody>
@@ -33,4 +33,5 @@
 
 <br>
 
-<%= link_to 'New Jadwal', new_jadwal_path %>
+
+

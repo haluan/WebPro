@@ -16,11 +16,6 @@
 </p>
 
 <p>
-  <strong>Password digest:</strong>
-  <%= @admin.password_digest %>
-</p>
-
-<p>
   <strong>Alamat:</strong>
   <%= @admin.alamat %>
 </p>
@@ -40,10 +35,6 @@
   <%= @admin.birthplace %>
 </p>
 
-<p>
-  <strong>Ingat aku:</strong>
-  <%= @admin.ingat_aku %>
-</p>
 
 <%= link_to 'Edit', edit_admin_path(@admin) %> |
 <%= link_to 'Back', admins_path %>

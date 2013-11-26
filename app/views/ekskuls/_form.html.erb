@@ -17,13 +17,13 @@
   </div>
   <div class="field">
     <%= f.label :deskripsi %><br>
-    <%= f.text_field :deskripsi %>
+    <%= f.text_area :deskripsi, rows:"7" %>
   </div>
   <div class="field">
     <%= f.label :guru_id %><br>
     <%= f.select :guru_id, guru %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit class:"btn btn-primary"%>
   </div>
 <% end %>

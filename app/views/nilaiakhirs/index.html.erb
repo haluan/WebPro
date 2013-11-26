@@ -1,6 +1,6 @@
-<h1>Listing nilaiakhirs</h1>
-
-<table>
+<h1>Daftar Nilai Akhir</h1>
+<%= link_to '+ Nilaiakhir', new_nilaiakhir_path , class:"btn btn-primary white", style:"color:white;"%>
+<table class="table table-condensed">
   <thead>
     <tr>
       <th>Nilai</th>
@@ -18,9 +18,9 @@
         <td><%= nilaiakhir.nilai %></td>
         <td><%= nilaiakhir.berkelas_id %></td>
         <td><%= nilaiakhir.mapel_id %></td>
-        <td><%= link_to 'Show', nilaiakhir %></td>
-        <td><%= link_to 'Edit', edit_nilaiakhir_path(nilaiakhir) %></td>
-        <td><%= link_to 'Destroy', nilaiakhir, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', nilaiakhir, class:"btn btn-info" %></td>
+        <td><%= link_to 'Edit', edit_nilaiakhir_path(nilaiakhir), class:"btn btn-warning" %></td>
+        <td><%= link_to 'Destroy', nilaiakhir, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-danger" %></td>
       </tr>
     <% end %>
   </tbody>
@@ -28,4 +28,4 @@
 
 <br>
 
-<%= link_to 'New Nilaiakhir', new_nilaiakhir_path %>
+

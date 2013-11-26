@@ -1,5 +1,5 @@
-<h1>Listing berekskuls</h1>
-
+<h1>Daftar Siswa mengambi Ekskul</h1>
+<%= link_to '+ Ekskul Siswa', new_berekskul_path, class:"btn btn-primary white", style:"color:white;" %>
 <table>
   <thead>
     <tr>
@@ -18,9 +18,9 @@
         <td><%= berekskul.tahun %></td>
         <td><%= berekskul.mahasiswa_id %></td>
         <td><%= berekskul.ekskul_id %></td>
-        <td><%= link_to 'Show', berekskul %></td>
-        <td><%= link_to 'Edit', edit_berekskul_path(berekskul) %></td>
-        <td><%= link_to 'Destroy', berekskul, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', berekskul, class:"btn btn-info" %></td>
+        <td><%= link_to 'Edit', edit_berekskul_path(berekskul), class:"btn btn-warning" %></td>
+        <td><%= link_to 'Destroy', berekskul, method: :delete, data: { confirm: 'Are you sure?' } , class:"btn btn-danger"%></td>
       </tr>
     <% end %>
   </tbody>
@@ -28,4 +28,4 @@
 
 <br>
 
-<%= link_to 'New Berekskul', new_berekskul_path %>
+

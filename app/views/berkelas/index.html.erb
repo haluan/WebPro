@@ -1,5 +1,5 @@
-<h1>Listing berkelas</h1>
-
+<h1>Daftar Kelas Siswa</h1>
+<%= link_to '+ Kelas Siswa', new_berkela_path, class:"btn btn-primary white", style:"color:white;" %>
 <table>
   <thead>
     <tr>
@@ -18,9 +18,9 @@
         <td><%= berkela.tahun_ajaran %></td>
         <td><%= berkela.mahasiswa_id %></td>
         <td><%= berkela.kelas_id %></td>
-        <td><%= link_to 'Show', berkela %></td>
-        <td><%= link_to 'Edit', edit_berkela_path(berkela) %></td>
-        <td><%= link_to 'Destroy', berkela, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', berkela, class:"btn btn-info" %></td>
+        <td><%= link_to 'Edit', edit_berkela_path(berkela), class:"btn btn-warning" %></td>
+        <td><%= link_to 'Destroy', berkela, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-danger" %></td>
       </tr>
     <% end %>
   </tbody>
@@ -28,4 +28,4 @@
 
 <br>
 
-<%= link_to 'New Berkela', new_berkela_path %>
+
